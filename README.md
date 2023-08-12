@@ -1,2 +1,2 @@
 # webpage-jsonfeed
-AWS lambda python script that scrapes webpage and compiles data into json feed
+This is a AWS lambda python script for scraping articles from the Jurisprudence article category on slate. The script can be easily deployed as an AWS lambda. It formats the data into a [json feed](https://www.jsonfeed.org) which can be read by a feed reader.
