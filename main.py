@@ -36,7 +36,7 @@ def get_jp_json_feed():
         'version': 'https://jsonfeed.org/version/1.1',
         'title': 'Jurisprudence Feed',
         'home_page_url': jp_url,
-        'feed_url': 'https://tp5npvslue2a4p76gp5m3ivf4i0aedgk.lambda-url.us-east-2.on.aws/',
+        'feed_url': '<URL>',
         'items': items
     }
     return json.dumps(feed, indent=2)
