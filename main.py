@@ -47,4 +47,7 @@ def get_jp_json_feed():
 
 
 if __name__ == '__main__':
-    get_jp_json_feed()
+    feed_str = get_jp_json_feed()
+    feed_file = open("feed.json", "w")
+    feed_file.write(feed_str)
+    feed_file.close()
